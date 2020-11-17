@@ -8,8 +8,8 @@ import {
   FlatList,
   Modal,
 } from "react-native";
-import GoalAdd from "./components/GoalAdd";
-import GoalComponent from "./components/GoalComponent";
+import GoalAdd from "./GoalsApplication/components/GoalAdd";
+import GoalComponent from "./GoalsApplication/components/GoalComponent";
 
 export default function App() {
   const [goals, setGoals] = useState<string[]>([]);
